@@ -1,0 +1,25 @@
+.card {
+    box-shadow: 0 0 10px 0 rgba(199, 199, 199, 0.479);
+    transition: 0.3s;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-body {
+    line-height: 28px;
+}
+.card:hover {
+    transform: scale(1.03);
+}
+.img-holder {
+    height: 40px; 
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid gray;
+}
+.filter-box {
+    border-radius: 10px;
+    overflow: hidden;
+    position: sticky;
+    top: 10px
+}

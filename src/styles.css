@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    /* background: #41295a;  
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  
+    background: linear-gradient(to right, #2F0743, #41295a); */
+    /* background-image: url('https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg'); */
+    /* background-image: url('./assets/images/pngtree-original-design-business-office-management-system-background-banner-image_346107.jpg'); */
+    background-image: url('https://cdn3.vectorstock.com/i/1000x1000/50/22/dark-abstract-background-polygon-vector-2835022.jpg');
+    background-size: 100% 1500px;
+    background-repeat: repeat;
+}
+.bg-color-p {
+    background-color: #2d4e61;  
+}
+.bg-color-light {
+    background-color:#2d4e6160; 
+}
+.color-p {
+    color: #2d4e61;
+}
+input.ng-invalid.ng-touched {
+    border: 1px solid #dc3545;
+}
+.table {
+    box-shadow: 0 0 10px 0 rgb(145, 116, 177);   
+}
+th {
+    border-bottom: 1px solid black !important;
+}
+td {
+    border-bottom: 1px solid rgb(189, 186, 186) !important;
+}
+thead {
+    background-color: #efe5fa;
+}
+tr:hover {
+    background-color: #efe5fa;
+}
+.skill {
+    padding: 5px;
+    background-color: #2d4e6160;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.dropdown-item {
+    cursor: pointer;
+}
+

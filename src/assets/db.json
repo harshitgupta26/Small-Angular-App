@@ -1,0 +1,169 @@
+{
+  "Employees": [
+    {
+      "firstName": "Harshit",
+      "lastName": "Gupta",
+      "designation": "Associate Software Developer",
+      "salary": 450000,
+      "email": "harshit@gmail.com",
+      "password": "harshit",
+      "doj": "2020-11-02",
+      "role": "admin",
+      "skills": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Angular"
+      ],
+      "id": 1
+    },
+    {
+      "firstName": "Akshay",
+      "lastName": "Kumar",
+      "designation": "Senior Software Developer",
+      "salary": 95000,
+      "email": "akshay@gmail.com",
+      "password": "akshay#817",
+      "doj": "2020-11-02",
+      "skills": [
+        "C++",
+        " Python",
+        " Java"
+      ],
+      "id": 2
+    },
+    {
+      "firstName": "First",
+      "lastName": "Last",
+      "designation": "Associate software Developer",
+      "salary": 800000,
+      "email": "employee@gmail.com",
+      "password": "asdfasdf",
+      "doj": "2020-02-01",
+      "skills": [
+        "Angular",
+        "React",
+        "HTML",
+        "java"
+      ],
+      "id": 6
+    },
+    {
+      "firstName": "Palak",
+      "lastName": "Chaudhary",
+      "designation": "Technical Manager",
+      "salary": 500000,
+      "email": "palak@gmail.com",
+      "password": "asdfasdf",
+      "doj": "2020-01-01",
+      "skills": [
+        "Python",
+        " Java",
+        " Linux"
+      ],
+      "id": 7
+    },
+    {
+      "firstName": "Aman",
+      "lastName": "Singh",
+      "designation": "Human Resources",
+      "salary": 800000,
+      "email": "aman@gmail.com",
+      "password": "aman@123",
+      "doj": "2020-03-11",
+      "skills": [
+        "IOT",
+        " AI",
+        " ML"
+      ],
+      "id": 9
+    },
+    {
+      "firstName": "Noob",
+      "lastName": "Employee",
+      "designation": "Noob Developer",
+      "salary": 100000,
+      "email": "noob@gmail.com",
+      "password": "noob@123",
+      "doj": "2020-11-03",
+      "skills": [
+        "C",
+        "C++"
+      ],
+      "id": 10
+    },
+    {
+      "firstName": "Harsh",
+      "lastName": "Goyal",
+      "designation": "Technical Lead",
+      "salary": 600000,
+      "email": "harsh@gmail.com",
+      "password": "harsh@123",
+      "doj": "2020-10-11",
+      "skills": [
+        "Data Science",
+        " Python"
+      ],
+      "id": 11
+    },
+    {
+      "firstName": "Gopallllll",
+      "lastName": "Tewatia",
+      "designation": "Assistant Software Developer",
+      "salary": 500000,
+      "email": "gopal@gmail.com",
+      "password": "gopallllll@123",
+      "doj": "2019-03-01",
+      "skills": [
+        "C++",
+        " Node.js",
+        " Javascript"
+      ],
+      "id": 12
+    },
+    {
+      "firstName": "Virat ",
+      "lastName": "Kohli",
+      "designation": "Manager",
+      "salary": 800000,
+      "email": "virat@gmail.com",
+      "password": "virat @123",
+      "doj": "2020-08-02",
+      "skills": [
+        "Java",
+        " Hadoop",
+        " Angular"
+      ],
+      "id": 13
+    },
+    {
+      "firstName": "Name",
+      "lastName": "new",
+      "designation": "Software DEveloper",
+      "salary": 500000,
+      "email": "new@gmail.com",
+      "password": "name@123",
+      "doj": "2023-11-10",
+      "skills": [
+        "Javascript",
+        "Angular"
+      ],
+      "id": 14
+    },
+    {
+      "firstName": "MS",
+      "lastName": "Dhoni",
+      "designation": "Senior Software Developer",
+      "salary": 1000000,
+      "email": "ms@gmail.com",
+      "password": "ms@123",
+      "doj": "2014-07-15",
+      "skills": [
+        "Azure",
+        " AWS",
+        " Hadoop"
+      ],
+      "id": 15
+    }
+  ]
+}

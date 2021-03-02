@@ -1,0 +1,7 @@
+.login-form {
+    max-width: 450px;
+    box-shadow: 0 0 10px 0 rgb(128, 128, 128);
+    margin-top: 6rem;
+    border-radius: 5px;
+    border-top: 5px solid #2d4e61;
+}

@@ -1,0 +1,51 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white px-md-4">
+    <a class="navbar-brand"><i class="fa fa-users color-p"></i> <i class="h4 color-p">EMS</i></a>
+    <div class="ml-auto" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item" *ngIf="!user">
+          <a class="nav-link btn" routerLink="/login" routerLinkActive="active">Login <i class="fa fa-arrow-right"></i></a>
+        </li>
+        <div class="dropdown" *ngIf="user">
+          <a class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{user.firstName + ' ' + user.lastName}}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" routerLink="dashboard" *ngIf="user.role=='admin'">Dashboard</a>
+            <a class="dropdown-item" routerLink="emp-dashboard">My Profile</a>
+            <a class="dropdown-item" (click)="editUser()" data-toggle="modal" data-target="#editModal">Edit Profile</a>
+            <a class="dropdown-item" (click)="logout()">Logout <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </ul>
+    </div>
+</nav>
+
+
+<div class="modal fade" id="editModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title h4" id="exampleModalLabel">Edit Profile</div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="row" [formGroup]="editForm" *ngIf="editForm">
+          <div class="col-12 form-group">
+            <label for="">Skills</label>
+            <input type="text" class="form-control" placeholder="Enter Skills" formControlName="skills">
+          </div>
+          <div class="col-12 form-group">
+            <label for="">Password</label>
+            <input type="text" class="form-control" placeholder="Password" formControlName="password">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn bg-color-p text-white" (click)="editInfo()">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
